@@ -289,3 +289,60 @@ body{
     font: size 34px;
     margin-bottom:  20px;
 }
+
+.contact-left p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+/* Social */
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons a{
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:#ff6a00;
+    font-size:20px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    transform:scale(1.2);
+}
+
+/* Form */
+
+.contact-right form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.contact-right input,
+.contact-right textarea{
+
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    outline:none;
+}
+
+.contact-right textarea{
+    height:180px;
+    resize:none;
+}
+
+.contact-right button{
+    width:150px;
+}
